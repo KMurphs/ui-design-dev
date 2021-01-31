@@ -1,0 +1,68 @@
+/* .nav_link{
+  position: relative;
+  margin: 1rem 0;
+}
+.nav_link .lni{
+  color: white;
+  font-size: 1.5rem;
+}
+.nav_link__content{
+  display: block;
+  width: 100%;
+  min-height: 1rem;
+  padding: .8rem 1rem;
+  padding-right: 2rem;
+  width: 5rem;
+  color: white;
+}
+.nav_link--active .nav_link__content{
+  background-color: #fff;
+  border-radius: 100px 0 0 100px;
+
+}
+.nav_link--active .nav_link__before,
+.nav_link--active .nav_link__after{
+  content: "";
+  display: block;
+  position: absolute;
+  height: 1.5rem;
+  background-color: #fff;
+  right: 0px;
+  left: 0px;
+}
+.nav_link--active .lni{
+  color: var(--primary-text);
+  font-weight: bold;
+  line-height: 1.2;
+}
+.nav_link__before{
+  top: -1.5rem;
+}
+.nav_link__after{
+  bottom: -1.5rem;
+}
+.nav_link--active .nav_link__after::after,
+.nav_link--active .nav_link__before::after{
+  content: "";
+  background-color: var(--secondary-purple-500);
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+}
+.nav_link--active .nav_link__before::after{
+  -webkit-clip-path: inset(0 round 100px);
+  clip-path: inset(0 round 0 0 100px);
+  top: -1px;
+}
+.nav_link--active .nav_link__after::after{
+  -webkit-clip-path: inset(0 round 100px 0 0);
+  clip-path: inset(0 round 0 100px 0 0);
+  bottom: -1px;
+}
+
+.nav_logo, .nav_exit{
+  margin: 0;
+} */

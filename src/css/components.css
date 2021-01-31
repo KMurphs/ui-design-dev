@@ -1,0 +1,26 @@
+html, body{
+  background-color: #FAD8AD;
+  
+  height: 100vh;
+}
+html, body, .App, .App *{
+  color: var(--primary-text);
+}
+
+button:focus{
+  outline: none !important;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  height: 100%;
+}
+.App{
+  flex: 0 1 600px;
+  background-color:#fff;
+  text-align: center;
+  width: 100%;
+  max-width: 850px;
+}

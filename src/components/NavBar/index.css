@@ -1,0 +1,44 @@
+.nav_link{
+  position: relative;
+  width: 65px;
+  min-height: 50px;
+}
+.nav_link svg{
+  display: none;
+  position: absolute;
+  left: 0;
+  top: -15px;
+  fill: white;
+  fill-rule: evenodd;
+  stroke-width: 2.34096;
+}
+.nav_link .lni{
+  color: white;
+  font-size: 1rem;
+}
+.nav_link__content{
+  display: block;
+  width: 100%;
+  min-height: 1rem;
+  color: white;
+  position: relative;
+}
+
+.nav_exit{
+  min-height: auto;
+}
+
+
+.nav_link--active .lni{
+  color: var(--primary-text);
+  font-weight: bold;
+  line-height: 1.2;
+}
+.nav_link--active svg{
+  display: block;
+}
+
+
+.nav_logo, .nav_exit{
+  margin: 0;
+}

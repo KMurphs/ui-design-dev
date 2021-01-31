@@ -1,0 +1,29 @@
+:root{
+  font-size: 100%;
+  --primary-gray: #e5e5e5;
+  --primary-text: #565288;
+  --secondary-yellow-500: #FFA000;
+  --secondary-purple-500: #332A7C;
+  --accent-red-500: #F25767;
+  --accent-blue-500: #87DFF0;
+}
+
+
+@layer utilities {
+  .bg-secondary-yellow-500 {
+    background-color: #FFA000;
+    background-color: var(--secondary-yellow-500);
+  }
+  .bg-secondary-purple-500 {
+    background-color: #332A7C;
+    background-color: var(--secondary-purple-500);
+  }
+  .bg-accent-red-500 {
+    background-color: #F25767;
+    background-color: var(--accent-red-500);
+  }
+  .bg-accent-blue-500 {
+    background-color: #87DFF0;
+    background-color: var(--accent-blue-500);
+  }
+}
