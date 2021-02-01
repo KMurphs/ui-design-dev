@@ -10,6 +10,10 @@
   .text-uppercase {
     text-transform: uppercase;
   }
+  .text-2xs {
+    font-size: 0.5rem;
+    line-height: .75rem
+  }
 }
 
 

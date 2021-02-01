@@ -2,7 +2,7 @@ import './index.css';
 
 export default function NavBar() {
   return (
-    <nav className="nav m-2 flex flex-col justify-between pt-10 pb-6  bg-secondary-purple-500 rounded-4xl">
+    <nav className="nav m-2 flex flex-col justify-between pt-10 pb-6  bg-secondary-purple-500 rounded-2xl px-3">
       <section className="nav_logo nav_link text-white text-center">C|Mac</section>
       <section className="nav_links flex flex-col justify-center text-center">
         <button className="nav_link">

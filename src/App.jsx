@@ -6,7 +6,7 @@ import AsideBar from "./components/AsideBar"
 
 function App() {
   return (
-    <div className="App flex rounded-4xl overflow-hidden">
+    <div className="App flex rounded-3xl overflow-hidden">
       <NavBar/> 
       <main className="w-3/5 flex flex-col m-7 justify-between">
         
