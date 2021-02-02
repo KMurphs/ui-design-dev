@@ -12,7 +12,7 @@ export default function AsideBar() {
       <div className=" m-7 mt-8 flex justify-end items-center">
         <span className="ml-5"><i className="lni lni-display"></i></span>
         <span className="ml-5"><i className="lni lni-display"></i></span>
-        <span className="inline-block h-8 w-8 bg-gray-400 rounded-lg ml-5 overflow-hidden"><img src={Profile} alt=""/></span>
+        <span className="inline-block h-8 w-8 bg-gray-400 rounded-3xl ml-5 overflow-hidden"><img src={Profile} alt=""/></span>
       </div>
     
       <div className="bg-gray-100 flex-grow other-functions p-7">
